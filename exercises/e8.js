@@ -8,7 +8,7 @@ export function findPlanetNameByMoon(data, moonName) {
   // Your code goes here...
   const planet = data.planets.find(planet => planet.moons && planet.moons.includes(moonName));
   return planet ? planet.name : null;
-};
+}
 
 
 
